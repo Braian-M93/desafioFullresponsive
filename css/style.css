@@ -1,0 +1,258 @@
+*{
+  font-size: 100%;
+  font-family: times new roman, serif;
+}
+
+body{
+  
+  background-image: url(../img/arrozsushi4.jpg);
+  background-attachment: scroll;
+
+}
+
+header nav ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+header nav ul li{
+  list-style-type: none;
+}
+
+header nav ul li a{
+color: black;
+font-weight: 300%;
+font-size: 50px;
+line-height: 5rem;
+margin: 30px;
+}
+ 
+ fieldset div p label{
+  color:black;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: times new roman, serif;
+  line-height: 5rem;
+}
+form fieldset label{
+  font-size: 50px;
+  font-family: times new roman, serif;
+  line-height: 5rem;
+}
+
+ fieldset article p{
+  color:black;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: times new roman, serif;
+  line-height: 2.3rem; 
+}
+
+article p{
+  color:black ;
+  font-weight: bold ;
+  font-size: 30px;
+  font-family: times new roman, serif;
+  line-height: 4rem;
+}
+
+legend h3{
+  color:black ;
+  font-weight: bold ;
+  font-size: 30px;
+  font-family: times new roman, serif;
+  line-height: 5rem;
+}
+
+
+table{
+  color:black;
+}
+
+.text-center{
+  text-align: center; 
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+fieldset{
+  color: black;
+}
+.w-10{
+  width: 10%;
+}
+section fieldset div img{
+  width: 25%;
+  margin: 25px;
+  border-radius: 10%;
+
+}
+section fieldset{
+  border: solid;
+  color: black;
+    font-weight: 300;
+  
+  line-height: 5rem;
+  margin: 30px;
+}
+
+header nav a img{
+  width: 20%;
+  border-radius: 60%;
+}
+section a img{
+  width: 50%;
+  border-radius: 20%;
+}
+
+section img{
+  width: 25%;
+}
+
+.nosotros__titulo--xl{
+font-size: 3rem ;
+}
+.nosotros__text--md{
+  font-size: 2rem;
+}
+.imagen{
+  width: 80%;
+  height: auto;
+  margin-left: 21vw;
+}
+
+.nosotros{
+  width: 100%;
+  height: auto;
+  margin: 30px auto ;
+}
+.nosotros__titulo--xl{
+  background-color: red;
+}
+
+.pie{
+
+  margin-left: 30px;
+
+}
+.encabezado ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  height: 30px;
+  color: black;
+font-weight: 300%;
+font-size: 50px;
+line-height: 5rem;
+margin: 30px;
+}
+
+
+.container{
+  display: flex;
+  border-style: double;
+  justify-content: start;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.justify-content{
+  justify-content: space-around;
+}
+
+.align-content{
+  align-content: space-around;
+}
+.align-items{
+  align-items: center;
+}
+.flex-direction{
+  flex-direction: column;
+}
+.grid {
+    width: 95%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-template-areas:
+        "presentacion insta ";    
+}
+
+.grid1{
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+    grid-template-areas:
+    "delivery mapa";
+}
+#header{
+  grid-area: header;
+}
+#main{
+  grid-area: main;
+}
+#presentacion{
+grid-area: presentacion;
+}
+#insta{
+    grid-area: insta;
+    align-self: center;
+}
+
+#mapa{
+  grid-area: mapa;
+  align-self: end;
+}
+
+#footer{
+grid-area: footer;
+}
+#delivery{
+  grid-area: delivery;
+}
+
+.justify-items{
+  justify-items: end ;
+}
+.align-items{
+  align-items: center;
+}
+.justify-content{
+  grid-template-columns:;
+justify-content: space-around;
+}
+.align-content{
+align-content: space-evenly;
+}
+@media (max-width: 800px){
+  .column{
+    flex:50%;
+  }
+ }
+
+ @media (max-width: 600px){
+  .column{
+    flex:100%;
+  }
+ .row{
+  display: flex;
+  padding: 10px;
+flex-wrap: wrap;
+ }
+ .column{
+  flex: 25%;
+  margin-top: 10px;
+ }
